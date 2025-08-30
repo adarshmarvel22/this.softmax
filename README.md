@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+# This.SoftMax Products
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This.SoftMax is the official platform for showcasing all new products, services, and software launches from our innovative ecosystem. This website serves as the central hub for discovering cutting-edge solutions across various domains including real estate technology, collaborative documentation, and artificial intelligence.
 
-In the project directory, you can run:
+## Featured Products
 
-### `npm start`
+### 1. Aria.Estate
+A dynamic property platform revolutionizing real estate commerce with comprehensive solutions for property management, leasing, development services, and infrastructure projects.
+Link: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Note.Delta
+A technology and sci-fi proposal platform featuring development tools, documentation systems, and community forums with both public and private collaboration spaces.
+Link: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Sphereas
+An advanced AI platform that transforms text to images, with upcoming capabilities for large language models (LLM) and text-to-video generation.
+Link: 
 
-### `npm test`
+## Technology Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React.js with modern CSS animations
+- **Styling**: Custom CSS with gradient backgrounds and interactive elements
+- **Animations**: Pure CSS animations (no external libraries)
+- **Design**: Responsive design that works on all device sizes
+- **Backend**: Python Django Framework (under devlopment)
+- **Database**: pgAdmin as of now(TODO: Migrate to mongoDB)
 
-### `npm run build`
+## Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Visually Stunning Design**: Each product features unique animations that represent its core functionality
+- **Responsive Layout**: Adapts seamlessly to desktop, tablet, and mobile devices
+- **Performance Optimized**: Lightweight implementation with pure CSS animations
+- **Consistent Theme**: Matches the overall design language of the This.SoftMax ecosystem
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd my-business-app
+```
 
-### `npm run eject`
+2. Install dependencies:
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open your browser and navigate to `http://localhost:3000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Building for Production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To create a production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will generate optimized static files in the `build` folder.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Structure
 
-### Code Splitting
+```
+src/
+  components/
+    Footer.js     
+  pages/
+    ProductsPage.js   
+  styles/
+    LandingPage.css   
+    ProductsPage.css  
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Customization
 
-### Analyzing the Bundle Size
+### Adding New Products
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Currently it is static. As soon as backend is ready, custom styling and animation feature will be available to customise and configure from backend.
+Also, another Deep Research Backend Python Mdoule(ASAD) is in development which will enable high end dynamic feasibility and customisation.
 
-### Making a Progressive Web App
+### Modifying Animations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Each product has dedicated animation keyframes in the CSS file. Adjust timing, size, and movement patterns by modifying the appropriate keyframes and animation properties.
 
-### Advanced Configuration
+### Color Scheme
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The color scheme uses CSS variables defined in `LandingPage.css`:
 
-### Deployment
+```css
+:root {
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --secondary: #10b981;
+  --accent: #f59e0b;
+  --dark: #1f2937;
+  --light: #f9fafb;
+  --gray: #6b7280;
+}
+```
+However in upcoming ASAD launch, it will also be configurable.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Browser Compatibility
 
-### `npm run build` fails to minify
+This website supports all modern browsers including:
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Performance Notes
+
+- All animations are implemented using CSS for optimal performance
+- Images are optimized for fast loading
+- The codebase follows React best practices for efficient rendering
+
+## Contributing
+
+We welcome contributions to enhance the This.SoftMax products website. Please ensure that any new animations maintain the consistent visual language and performance standards.
+
+## License
+
+This project is proprietary software owned by This.SoftMax. All rights reserved.
+
+## Support
+
+For technical support or questions about our products, please contact our development team at testingnewold@gmail.com.
+
+---
+
+*This.SoftMax - Launching Innovation, Powering Progress*
